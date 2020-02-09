@@ -58,7 +58,7 @@ use pocketmine\item\SnowBall;
 
 class Main extends PluginBase implements Listener{
 
-  public $prefix = "§l§8[§l§cYou§4Tube§l§8]";
+  public $prefix = "§l§8[§l§cYou§4Tube§l§8] §r§l§7";
 
   public function onEnable(){
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
