@@ -1,0 +1,25 @@
+name: youtube
+version: 1.0
+api: 3.0.0
+author: V3rsucht, WasIstMarcel
+main: youtube\Main
+
+commands:
+  yt:
+    description: "§7YoutubeInfo Command"
+    usage: "/yt"
+    permission: "yt.info"
+  discord:
+    description: "Rufe den Discord Server vom Server auf."
+    usage: "/discord"
+  kanal:
+    description: "Rufe den YouTube Kanal vom Server auf."
+    usage: "/kanal"
+  author:
+    description: "Um den Macher kennen zu lernen."
+    usage: "/author"
+
+permissions:
+  yt.info:
+    default: op
+    description: "Erlaubt es dem Spieler das YouTube Setup durchzuführen!"
