@@ -6,14 +6,14 @@ main: youtube\Main
 
 commands:
   yt:
-    description: "§7YoutubeInfo Command"
+    description: "§4YT"
     usage: "/yt"
     permission: "yt.info"
   discord:
-    description: "Rufe den Discord Server vom Server auf."
+    description: "§4Discord"
     usage: "/discord"
   kanal:
-    description: "Rufe den YouTube Kanal vom Server auf."
+    description: "§4Unser Kanal Auf YT"
     usage: "/kanal"
   author:
     description: "Um den Macher kennen zu lernen."
